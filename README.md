@@ -1,26 +1,30 @@
 # Return-Risk Explainer
 
+**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results.
+
+[Portfolio](https://eskstrom.github.io/) · [Related projects](https://eskstrom.github.io/?category=product-service-design#library)
+
 ## Product brief
 
 A listing-quality assistant that identifies product-information gaps likely to cause preventable returns, such as compatibility ambiguity, missing dimensions, or unclear specifications.
 
-## Why this belongs in your portfolio
+## Design focus
 
-It builds naturally from your Flipkart return-economics work and shows product judgment rather than generic prediction.
+Explain ambiguous product information without claiming proven return reduction.
 
-## MVP
+## Proposed scope
 
 - Synthetic product listings with known information-quality issues.
 - Rule-based risk flags and an explainable score.
 - Suggested copy/attribute improvements.
 - Comparison view showing listing quality before and after changes.
 
-## Success measures
+## Validation targets
 
 - Every risk flag points to specific missing or conflicting information.
 - No unsupported claim that the tool predicts real-world return rates.
 
-## Suggested stack
+## Potential implementation
 
 TypeScript or Python, React/Streamlit, SQLite.
 
@@ -28,6 +32,4 @@ TypeScript or Python, React/Streamlit, SQLite.
 
 Position it as a decision-support prototype, not a deployed risk model.
 
-## Chat kickoff
-
-“Build the Return-Risk Explainer with explainable, rule-based flags and synthetic product listings.”
+[Implementation planning notes](notes/IMPLEMENTATION-NOTES.md)
